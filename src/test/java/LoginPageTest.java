@@ -13,5 +13,6 @@ public class LoginPageTest {
         System.setProperty("webdriver.chrome.driver", "D:\\Software_Tools\\webdriver\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.google.com");
+        driver.manage().window().maximize();
     }
 }
