@@ -14,7 +14,7 @@ import static org.junit.Assert.assertEquals;
 
 
 public class LoginPageTest extends MainConfigTest{
-
+//Test commita
     @Test
     public void should_check_title_and_domain(){
         String title = driver.getTitle();
